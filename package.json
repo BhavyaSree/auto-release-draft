@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "auto-release-draft",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Drafts a gitHub release",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,17 +15,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/BhavyaSree/auto-release-draft.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "",
+  "author": "Bhavya",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^1.2.6"  
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
